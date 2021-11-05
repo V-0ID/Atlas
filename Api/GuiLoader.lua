@@ -309,5 +309,7 @@ end)
 
 --Execute
 Execute.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/V-0ID/Atlas/main/Api/Loader.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/V-0ID/Atlas/main/Api/Loader.lua"))();
+wait(0.3)
+StopLookingAtSource:Destroy()
 end)
