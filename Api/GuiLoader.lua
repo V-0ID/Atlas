@@ -269,7 +269,7 @@ TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
 --Stolen Drag script :kek
 --https://www.youtube.com/watch?v=z25nyNBG7Js&t=21s
 local UIS = game:GetService('UserInputService')
-local frame = script.Parent
+local frame = MainFrame
 local dragToggle = nil
 local dragSpeed = 0.25
 local dragStart = nil
