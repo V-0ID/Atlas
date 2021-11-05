@@ -1,3 +1,4 @@
+local CurrentVersion = "Early Access"
 --[[
 
 There is nothing important here, like actual
@@ -55,7 +56,7 @@ Heading.Position = UDim2.new(0.265253246, 0, 0.0385306217, 0)
 Heading.Size = UDim2.new(0.481012702, 0, 0.0816326588, 0)
 Heading.ZIndex = 10
 Heading.Font = Enum.Font.SourceSans
-Heading.Text = "Atlas | [version]"
+Heading.Text = "Atlas | [".. CurrentVersion .."]"
 Heading.TextColor3 = Color3.fromRGB(200, 200, 200)
 Heading.TextScaled = true
 Heading.TextSize = 14.000
