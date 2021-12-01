@@ -6,6 +6,8 @@ elseif game.PlaceId == 1962086868 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/V-0ID/Atlas/main/Api/Games/TOH.lua"))();
 elseif game.PlaceId == 3527629287 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/V-0ID/Atlas/main/Api/Games/BigPaintball.lua"))();
+elseif game.PlaceId == 6808416928 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/V-0ID/Atlas/main/Api/Games/Aimblox.lua"))();
 else
 game.StarterGui:SetCore("SendNotification", {
     Title = "Game Not Supported";
